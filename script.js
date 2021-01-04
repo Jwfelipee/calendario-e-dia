@@ -20,62 +20,62 @@ function carregar() {
             case 0:
                 mes = "Janeiro"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario1.png"
+                calen.src = "imagens/calendario1.png"
                 break
             case 1:
                 mes = "fevereiro"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario2.png"
+                calen.src = "imagens/calendario2.png"
                 break
             case 2:
                 mes = "março"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario3.png"
+                calen.src = "imagens/calendario3.png"
                 break
             case 3:
                 mes = "abril"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario4.png"
+                calen.src = "imagens/calendario4.png"
                 break
             case 4:
                 mes = "maio"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario5.png"
+                calen.src = "imagens/calendario5.png"
                 break
             case 5:
                 mes = "junho"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario6.png"
+                calen.src = "imagens/calendario6.png"
                 break
             case 6:
                 mes = "julho"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario7.png"
+                calen.src = "imagens/calendario7.png"
                 break
             case 7:
                 mes = "agosto"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario8.png"
+                calen.src = "imagens/calendario8.png"
                 break
             case 8:
                 mes = "setembro"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario9.png"
+                calen.src = "imagens/calendario9.png"
                 break
             case 9:
                 mes = "outubro"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario10.png"
+                calen.src = "imagens/calendario10.png"
                 break
             case 10:
                 mes = "novembro"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario11.png"
+                calen.src = "imagens/calendario11.png"
                 break
             case 11:
                 mes = "dezembro" 
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
-                calen.src = "calendario.png"
+                calen.src = "imagens/calendario.png"
                 break
             default:
                 alert("[ERRO 000] Ação invalida, verefique e tente novamente!")
@@ -89,23 +89,23 @@ function carregar() {
 
 {        if (hora <= 5 || hora >= 19) {
             //esta escuro
-            img.src = "noite.png"
+            img.src = "imagens/noite.png"
             document.body.style.background = "#051834"
     }   else if (hora >= 6 && hora < 9) {
             //bom dia
-            img.src = "manha.png"
+            img.src = "imagens/manha.png"
             document.body.style.background = "#c0a2da"
     }   else if (hora >= 9 && hora < 12) {
             //a manha esta acabando
-            img.src = "finalmanha.png"
+            img.src = "imagens/finalmanha.png"
             document.body.style.background = "#faf3ae"
     }   else if (hora >= 12 && hora <= 16) {
             //boa tarde
-            img.src = "tarde.png"
+            img.src = "imagens/tarde.png"
             document.body.style.background = "#fda791"
     }   else {
             //esta escurecendo
-            img.src = "finaltarde.png"
+            img.src = "imagens/finaltarde.png"
             document.body.style.background = "#cc5861"
 
     }
